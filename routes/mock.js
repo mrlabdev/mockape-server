@@ -1,8 +1,8 @@
 var express = require("express");
 var router = express.Router();
+var path = require("path");
 var fs = require("fs");
 var urlParse = require("url-parse");
-var path = require("path");
 
 /* GET a mock json. */
 router.get("/", function(req, res, next) {
