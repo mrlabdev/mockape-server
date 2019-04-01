@@ -8,15 +8,15 @@ var path = require("path");
 router.get("/", function(req, res, next) {
   // Get url pathname
   var urlComps = urlParse(req.originalUrl, true);
-  //   console.log("urlComps: " + urlComps.pathname);
+  // console.log("urlComps: " + urlComps.pathname);
 
   // Make mock data path
   var mockFilePath = path
     .dirname(__dirname)
     .concat("/MockData")
-    .concat(urlComps)
+    .concat(urlComps.pathname)
     .concat(".json");
-  //   console.log("mockFilePath: " + mockFilePath);
+  // console.log("mockFilePath: " + mockFilePath);
 
   // Fetch mock file content and return
   fs.readFile(mockFilePath, "utf-8", function(err, file) {
