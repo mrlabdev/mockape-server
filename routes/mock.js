@@ -29,7 +29,9 @@ router.get("/", function(req, res, next) {
         }
       });
     } else {
-      res.json(file).end();
+      let fileJson = JSON.parse(file);
+      console.log(fileJson);
+      res.json(fileJson).end();
     }
   });
 });

@@ -4,12 +4,13 @@ var path = require("path");
 var fs = require("fs");
 var glob = require("glob");
 
+//Return all mock file names
 router.get("/", function(req, res, next) {
   var mockDirPath = path
     .dirname(__dirname)
     .concat("/MockData")
     .concat("/**/*");
-  //   console.log(mockDirPath);
+  // console.log(mockDirPath);
   glob(mockDirPath, function(err, files) {
     if (err) {
       res.render("error", {
