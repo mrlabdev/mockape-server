@@ -22,6 +22,7 @@ router.get("/", function(req, res, next) {
             file.endsWith(".txt") ||
             file.endsWith(".mp3") ||
             file.endsWith(".jpg"))
+        );
       });
       var fileNames = mockFiles.map(function(file) {
         var filename = file
