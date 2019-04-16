@@ -14,9 +14,13 @@ router.get("/", function(req, res, next) {
   var mockFilePath = path
     .dirname(__dirname)
     .concat("/MockData")
-    .concat(urlComps.pathname)
-    .concat(".json");
-  // console.log("mockFilePath: " + mockFilePath);
+    .concat(urlComps.pathname);
+
+  if (!mockFilePath.endsWith(".xml")) {
+    mockFilePath = mockFilePath.concat(".json");
+  }
+
+  console.log("mockFilePath: " + mockFilePath);
 
   // Fetch mock file content and return
   fs.readFile(mockFilePath, "utf-8", function(err, file) {
@@ -29,9 +33,16 @@ router.get("/", function(req, res, next) {
         }
       });
     } else {
-      let fileJson = JSON.parse(file);
-      console.log(fileJson);
-      res.json(fileJson).end();
+      try {
+        let fileJson = JSON.parse(file);
+        res.json(fileJson).end();
+      } catch (err) {
+        console.log(err);
+        if (err.name.startsWith("SyntaxError")) {
+          res.setHeader("Content-Type", "application/xhtml+xml");
+          res.send(file).end();
+        }
+      }
     }
   });
 });
