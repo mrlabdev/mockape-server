@@ -6,6 +6,15 @@ var urlParse = require("url-parse");
 
 /* GET a mock json. */
 router.get("/", function(req, res, next) {
+  this.handlePath(req, res, next);
+});
+
+/* POST a mock json. */
+router.post("/", function(req, res, next) {
+  this.handlePath(req, res, next);
+});
+
+handlePath = (req, res, next) => {
   // Get url pathname
   var urlComps = urlParse(req.originalUrl, true);
   // console.log("urlComps: " + urlComps.pathname);
@@ -16,6 +25,9 @@ router.get("/", function(req, res, next) {
     .concat("/MockData")
     .concat(urlComps.pathname);
 
+  if (mockFilePath.endsWith("/")) {
+    mockFilePath = mockFilePath.concat("index");
+  }
   if (!mockFilePath.endsWith(".xml")) {
     mockFilePath = mockFilePath.concat(".json");
   }
@@ -45,6 +57,6 @@ router.get("/", function(req, res, next) {
       }
     }
   });
-});
+};
 
 module.exports = router;

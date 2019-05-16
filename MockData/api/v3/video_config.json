@@ -1,810 +1,923 @@
 {
-	"one_signal": "8fc35acc-cd98-44f2-85f1-88beef7061fa",
-	"opta": {
-		"base_url": "http:\/\/omo.akamai.opta.net",
-		"base_url_pipeline": "https:\/\/pipeline-integration.netcodev.com\/sbs\/1\/",
-		"login": "SBSTWG",
-		"password": "mK4VLG0Dz7Q2PEbj"
-	},
-	"baseurl": "http:\/\/www.qa.sbs.com.au",
-	"sl_baseurl": "http:\/\/sl.qa.sbs.com.au",
-	"base_url_sbs": "http:\/\/www.qa.sbs.com.au",
-	"force_update": {
-		"ios": {
-			"current_version": "5.6.1",
-			"min_version": "5.6.1",
-			"update_url": "https:\/\/itunes.apple.com\/au\/app\/the-world-game-football-news\/id410148191?mt="
-		},
-		"android": {
-			"current_version": "910",
-			"min_version": "910",
-			"update_url": "https:\/\/play.google.com\/store\/apps\/details?id=au.com.sbs.twg&hl=en"
-		}
-	},
-	"article_details": {
-		"play_button_url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/play_button.png",
-		"square_placeholder_url": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/square_placeholder.png"
-	},
-	"ad_tags": {
-		"interstitial": "\/4117\/twg.sbs\/twg_app",
-		"sticky": "\/4117\/twg.sbs\/twg_app_banner",
-		"video_preroll": "\/4117\/video.twg.sbs.com.au",
-		"native": "\/4117\/twg.sbs\/twg_app",
-		"in_article": "\/4117\/twg.sbs\/twg_app"
-	},
-	"social": {
-		"facebook": "SBSTheWorldGame",
-		"twitter": "TheWorldGame",
-		"twitter_ids": {
-			"key": "z0g3RR6IVAp7o9ormgGkqTMYk",
-			"secret": "cPQUrwnbMFeBb0ksFHaTGWvhUDbss32QpDDRoQDd9obgLCb6oI"
-		},
-		"instagram": "sbstheworldgame"
-	},
-	"daicontentid": "2488267",
-	"ls_endpoints": {
-		"SBS1": {
-			"assetkey": "W9GPHBoRQPCreAkWK3p8ZQ",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		},
-		"SBS2": {
-			"assetkey": "csbFntNxQWW2e7jCNMlkww",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		},
-		"SBS3": {
-			"assetkey": "17UIU9eiTQSxCl_XM6r_5w",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		},
-		"SBS4": {
-			"assetkey": "ut4JVwC3TBunOmP8wdDGtg",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		},
-		"SBSEvent1": {
-			"assetkey": "egHizzpJSba1WiMSmN5HNg",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		},
-		"SBSEvent2": {
-			"assetkey": "c4JhZeqBSHKx2IGvHkx8uA",
-			"dfptag": "https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au\/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
-		}
-	},
-	"channels": [{
-		"name": "SBS",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/sbs-logo-new.png"
-	}, {
-		"name": "SBS VICELAND",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/sbs2-logo-new2.png"
-	}, {
-		"name": "Food Network",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/SBS_Food_Network_logo.png"
-	}, {
-		"name": "SBSHD",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/sbshd-logo.png"
-	}, {
-		"name": "NITV",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/nitv-logo-new.png"
-	}, {
-		"name": "WorldMovies",
-		"logo": "https:\/\/s3-ap-southeast-2.amazonaws.com\/sbs-app-assets\/world-movies-logo.png"
-	}],
-	"store_urls": {
-		"ios": "itms:\/\/itunes.apple.com\/au\/app\/the-world-game\/id410148191?mt=8",
-		"android": "https:\/\/play.google.com\/store\/apps\/details?id=au.com.sbs.twg&hl=en"
-	},
-	"team_exclusions": ["place", "tbc", "rank", "winnner"],
-	"login_base_url_sbs": "https:\/\/www.qa.sbs.com.au\/api\/",
-	"template": {
-		"video": {
-			"general": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg\/[VIDEOID]?context=twg",
-			"team": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{t-[TEAMGSMID]}",
-			"league": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-[LEAGUEGSMID]}"
-		},
-		"news": {
-			"general": "http:\/\/theworldgame.sbs.com.au\/app-api",
-			"team": "http:\/\/theworldgame.sbs.com.au\/app-api\/team\/[TEAMGSMID]",
-			"league": "http:\/\/theworldgame.sbs.com.au\/app-api\/league\/[LEAGUEGSMID]",
-			"article": "http:\/\/theworldgame.sbs.com.au\/app-api\/article?aid=[ARTICLELINK]"
-		},
-		"stories": {
-			"article": "https:\/\/sl.qa.sbs.com.au\/public\/document\/[SLUG]",
-			"team": "https:\/\/sl.qa.sbs.com.au\/public\/documents\/article.json?hasroot=0&terms[0]=sm_vid_football_team:[TEAM_NAME]&limit=[LIMIT]&page=[PAGNATION]&site=The%20World%20Game",
-			"league": "https:\/\/sl.qa.sbs.com.au\/public\/documents\/article.json?hasroot=0&terms[0]=sm_vid_football_league:[LEAGUE_NAME]&limit=[LIMIT]&page=[PAGNATION]&site=The%20World%20Game",
-			"general": "https:\/\/sl.qa.sbs.com.au\/public\/configuration\/block\/The%20World%20Game\/latest.json"
-		},
-		"stats": {
-			"team": "http:\/\/www.qa.sbs.com.au\/api\/v3\/twg_stats\/teammatches?teamid=[TEAMGSMID]"
-		},
-		"images": {
-			"general": "https:\/\/sl.qa.sbs.com.au\/public\/image\/file\/[UUID]\/crop\/[CROP_TYPE]"
-		},
-		"txbanner": {
-			"live": "https:\/\/www.qa.sbs.com.au\/api\/v3\/twg2018_fixture\/getmatches\/?featured=1&tx=1&limit=1&livestream=1"
-		}
-	},
-	"content": {
-		"terms": "http:\/\/www.qa.sbs.com.au\/aboutus\/corporate\/view\/id\/114\/h\/Terms-and-Conditions",
-		"privacy": "http:\/\/www.qa.sbs.com.au\/aboutus\/corporate\/view\/id\/113\/h\/SBS-Privacy-Statement"
-	},
-	"test_live_mpx": "279376963970",
-	"live": {
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/twg-livestreams-test\/?context=twg&device=ios"
-	},
-	"epl_live": {
-		"games": [{
-			"title": "Test EPL Stream May 14 10:00",
-			"starttime": 1557792000000,
-			"endtime": 1558008000000,
-			"id": "1288059459980",
-			"thumbnail": "http:\/\/media.sbs.com.au\/video\/upload_media\/9985_110920-vod-fightingthered.jpg",
-			"thumbnail720": "http:\/\/media.sbs.com.au\/video\/upload_media\/9985_110920-vod-fightingthered.jpg"
-		}]
-	},
-	"video": {
-		"latest": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios",
-		"featured": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg\/1521782339591,1521710147698,1521666627931,1521607235669,1514534467686,1521314371741,1521267267985,1521283139724,1521122883987,1521279555716,1521121347647,1521146947712,1521120323864,1521152579838,1521130563787,1521175107642,1521133635691,1521065027728?context=twg&device=ios",
-		"endpoint": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_stream\/?context=twg&device=ios&id=[VIDEOID]&uniqueid=[UNIQUEID]"
-	},
-	"epg": {
-		"ACT": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/ACT",
-		"NSW": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/NSW",
-		"NT": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/NT",
-		"QLD": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/QLD",
-		"SA": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/SA",
-		"TAS": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/TAS",
-		"VIC": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/VIC",
-		"WA": "http:\/\/www.qa.sbs.com.au\/guide\/ajax_by_genre_data\/genre\/sport\/subgenre\/football\/location\/WA"
-	},
-	"profile": {
-		"support_email": "feedback.sport@sbs.com.au"
-	},
-	"football_web_view": "http:\/\/www.qa.sbs.com.au\/guide\/genre\/sport\/location\/NSW\/sublocation\/Sydney",
-	"videomenu": [{
-		"name": "Latest",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios"
-	}, {
-		"name": "A-League",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-283}"
-	}, {
-		"name": "Australia",
-		"children": [{
-			"name": "All",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Australia}"
-		}, {
-			"name": "Socceroos",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={groupingSingle}{Australia}&byCustomValue={machineVocabularies}{t-156}"
-		}, {
-			"name": "Experts",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={useType}{Experts}"
-		}]
-	}, {
-		"name": "English Premier League",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-8}"
-	}, {
-		"name": "Europe",
-		"children": [{
-			"name": "All",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Europe}"
-		}, {
-			"name": "UEFA Champions League",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Europe}&byCustomValue={machineVocabularies}{c-10}"
-		}, {
-			"name": "UEFA Europa League",
-			"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-18}"
-		}]
-	}, {
-		"name": "Asia",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Asia}"
-	}, {
-		"name": "Global",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Other}"
-	}, {
-		"name": "FIFA World Cup",
-		"feed": "http:\/\/www.qa.sbs.com.au\/api\/v3\/video_feed\/f\/Bgtm9B\/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-72}"
-	}],
-	"sports": [{
-		"name": "Football",
-		"is_active": true,
-		"logos": {
-			"teams": {
-				"small": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/logos\/",
-				"medium": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/logos\/",
-				"high": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/logos\/"
-			},
-			"players": {
-				"small": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/players\/[TEAMID]\/[player_id].jpg",
-				"medium": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/players\/[TEAMID]\/[player_id].jpg",
-				"high": "https:\/\/storage.googleapis.com\/static-production.netcosports.com\/sbs\/players\/[TEAMID]\/[player_id].jpg"
-			}
-		},
-		"countries": [{
-			"name": "Australia",
-			"short_code": "au",
-			"is_active": true,
-			"leagues": [{
-				"country": "Australia",
-				"name": "A-League",
-				"news_category": "Australia A-League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 214,
-				"gsm_id": 283,
-				"order": 3,
-				"type": "domestic"
-			}, {
-				"country": "Australia",
-				"name": "W-League",
-				"news_category": "Australia W-League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 684,
-				"gsm_id": 370,
-				"order": 3.5,
-				"type": "domestic"
-			}, {
-				"country": "Australia",
-				"name": "FFA Cup",
-				"news_category": "Australia FFA Cup",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 716,
-				"gsm_id": 1377,
-				"order": 4,
-				"type": "cup",
-				"to_hide_standings": true
-			}],
-			"teams": [{
-				"id": 575,
-				"name": "Socceroos",
-				"competition_id": 341,
-				"is_active": true
-			}]
-		}, {
-			"name": "England",
-			"short_code": "en",
-			"is_active": true,
-			"leagues": [{
-				"country": "England",
-				"name": "Premier League",
-				"news_category": "England Premier League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 8,
-				"gsm_id": 8,
-				"order": 1,
-				"type": "domestic"
-			}, {
-				"country": "England",
-				"name": "FA Cup",
-				"news_category": "England FA Cup",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 1,
-				"gsm_id": 93,
-				"order": 2,
-				"type": "cup",
-				"to_hide_standings": true
-			}, {
-				"country": "England",
-				"name": "EFL Championship",
-				"news_category": "England Championship",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 10,
-				"gsm_id": 70,
-				"order": 2.5,
-				"type": "cup",
-				"to_hide_standings": false
-			}]
-		}, {
-			"name": "Spain",
-			"short_code": "es",
-			"is_active": true,
-			"leagues": [{
-				"country": "Spain",
-				"name": "La Liga",
-				"news_category": "Spain La Liga",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 23,
-				"gsm_id": 7,
-				"order": 17,
-				"type": "domestic"
-			}, {
-				"country": "Spain",
-				"name": "Copa Del Rey",
-				"news_category": "Spain Copa Del Rey",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 331,
-				"gsm_id": 138,
-				"order": 53,
-				"type": "cup",
-				"to_hide_standings": true
-			}]
-		}, {
-			"name": "France",
-			"short_code": "fr",
-			"is_active": true,
-			"leagues": [{
-				"country": "France",
-				"name": "Ligue 1",
-				"news_category": "France Ligue 1",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 24,
-				"gsm_id": 16,
-				"order": 21,
-				"type": "domestic"
-			}, {
-				"country": "France",
-				"name": "Coupe de France",
-				"news_category": "France Coupe de France",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 361,
-				"gsm_id": 177,
-				"order": 50,
-				"type": "cup",
-				"to_hide_standings": true
-			}]
-		}, {
-			"name": "Germany",
-			"short_code": "de",
-			"is_active": true,
-			"leagues": [{
-				"country": "Germany",
-				"name": "Bundesliga",
-				"news_category": "Germany Bundesliga",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 22,
-				"gsm_id": 9,
-				"order": 19,
-				"type": "domestic"
-			}, {
-				"country": "Germany",
-				"name": "DFB Pokal",
-				"news_category": "Germany DFB Pokal",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 231,
-				"gsm_id": 104,
-				"order": 51,
-				"type": "cup",
-				"to_hide_standings": true
-			}]
-		}, {
-			"name": "Italy",
-			"short_code": "it",
-			"is_active": true,
-			"leagues": [{
-				"country": "Italy",
-				"name": "Serie A",
-				"news_category": "Italy Serie A",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 21,
-				"gsm_id": 13,
-				"order": 18,
-				"type": "domestic"
-			}, {
-				"country": "Italy",
-				"name": "Coppa Italia",
-				"news_category": "Italy Coppa Italia",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 259,
-				"gsm_id": 135,
-				"order": 52,
-				"type": "cup",
-				"to_hide_standings": true
-			}]
-		}, {
-			"name": "Europe",
-			"short_code": "eu",
-			"is_active": true,
-			"leagues": [{
-				"country": "Europe",
-				"name": "UEFA Champions League",
-				"news_category": "UEFA Champions League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 5,
-				"gsm_id": 10,
-				"order": 5,
-				"type": "cup",
-				"to_hide_standings": false
-			}, {
-				"country": "Europe",
-				"name": "UEFA Champions League Qualifiers",
-				"news_category": "UEFA Champions League",
-				"is_active": true,
-				"season": 2016,
-				"opta_id": 0,
-				"gsm_id": 200232,
-				"order": 29.1,
-				"type": "cup",
-				"to_hide_standings": true
-			}, {
-				"country": "Europe",
-				"name": "UEFA Europa League",
-				"news_category": "UEFA Europa League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 6,
-				"gsm_id": 18,
-				"order": 30,
-				"type": "cup"
-			}, {
-				"country": "Europe",
-				"name": "UEFA Super Cup",
-				"news_category": "UEFA Super Cup",
-				"is_active": false,
-				"season": 2018,
-				"opta_id": 174,
-				"gsm_id": 211,
-				"order": 31,
-				"type": "cup",
-				"to_hide_standings": true,
-				"to_hide_menu": true
-			}, {
-				"country": "Europe",
-				"name": "European Championship",
-				"news_category": "European Championship",
-				"is_active": true,
-				"season": 2011,
-				"opta_id": 3,
-				"gsm_id": 25,
-				"order": 11,
-				"type": "cup"
-			}, {
-				"country": "Europe",
-				"name": "European Championship Qualifiers",
-				"news_category": "European Championship Qualifiers",
-				"is_active": true,
-				"season": 4,
-				"opta_id": 235,
-				"gsm_id": 1000,
-				"order": 32,
-				"type": "cup"
-			}, {
-				"country": "Europe",
-				"name": "UEFA Nations League",
-				"news_category": "UEFA Nations League\t",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 941,
-				"gsm_id": 1661,
-				"order": 33,
-				"type": "cup"
-			}]
-		}, {
-			"name": "International",
-			"short_code": "www",
-			"is_active": true,
-			"leagues": [{
-				"country": "World",
-				"name": "FIFA World Cup",
-				"news_category": "FIFA World Cup",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 4,
-				"gsm_id": 72,
-				"order": 7,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - UEFA",
-				"news_category": "World Cup Qualifiers - UEFA",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 336,
-				"gsm_id": 224,
-				"order": 34,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - AFC",
-				"news_category": "World Cup Qualifiers - AFC",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 341,
-				"gsm_id": 229,
-				"order": 33,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - OFC",
-				"news_category": "World Cup Qualifiers - OFC",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 338,
-				"gsm_id": 230,
-				"order": 35,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - CONCACAF",
-				"news_category": "World Cup Qualifiers - CONCACAF",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 339,
-				"gsm_id": 227,
-				"order": 36,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - CONMEBOL",
-				"news_category": "World Cup Qualifiers - CONMEBOL",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 342,
-				"gsm_id": 225,
-				"order": 37,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "World Cup Qualifiers - CAF",
-				"news_category": "World Cup Qualifiers - CAF",
-				"is_active": true,
-				"season": 112018,
-				"opta_id": 340,
-				"gsm_id": 228,
-				"order": 38,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "FIFA World Cup (Women's)",
-				"news_category": "FIFA Women's World Cup",
-				"is_active": true,
-				"season": 2014,
-				"opta_id": 408,
-				"gsm_id": 368,
-				"order": 8,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "FIFA World Cup (Men's Under 20)",
-				"news_category": "FIFA U-20 World Cup",
-				"is_active": true,
-				"season": 2016,
-				"opta_id": 409,
-				"gsm_id": 274,
-				"order": 41,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "FIFA World Cup (Men's Under 17)",
-				"news_category": "FIFA U-17 World Cup",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 670,
-				"gsm_id": 365,
-				"order": 42,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "Confederations Cup",
-				"news_category": "FIFA Confederations Cup",
-				"is_active": true,
-				"season": 2016,
-				"opta_id": 330,
-				"gsm_id": 246,
-				"order": 13,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "Club World Cup",
-				"news_category": "FIFA Club World Cup",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 335,
-				"gsm_id": 284,
-				"order": 14,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "International Friendlies",
-				"news_category": "International Friendlies",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 88,
-				"gsm_id": 430,
-				"order": 12,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "Olympic Games - Men's",
-				"news_category": "Olympic Games - Men's",
-				"is_active": true,
-				"season": 2016,
-				"opta_id": 378,
-				"gsm_id": 221,
-				"order": 14,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "International Champions Cup (ICC)",
-				"news_category": "International Champions Cup (ICC)",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 638,
-				"gsm_id": 1148,
-				"order": 16,
-				"type": "cup"
-			}, {
-				"country": "World",
-				"name": "International Friendlies (Womens)",
-				"news_category": "International Friendlies (women)",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 551,
-				"gsm_id": 456,
-				"order": 18,
-				"type": "cup"
-			}]
-		}, {
-			"name": "Scotland",
-			"short_code": "sc",
-			"is_active": true,
-			"leagues": [{
-				"country": "Scotland",
-				"name": "Scottish Premier League",
-				"news_category": "Scotland Scottish Premier League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 14,
-				"gsm_id": 43,
-				"order": 20,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "Netherlands",
-			"short_code": "nl",
-			"is_active": true,
-			"leagues": [{
-				"country": "Netherlands",
-				"name": "Eredivisie",
-				"news_category": "Netherlands Eredivisie",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 9,
-				"gsm_id": 1,
-				"order": 22,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "Turkey",
-			"short_code": "tr",
-			"is_active": true,
-			"leagues": [{
-				"country": "Turkey",
-				"name": "Super Lig",
-				"news_category": "Turkey Super Lig",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 115,
-				"gsm_id": 19,
-				"order": 27,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "Portugal",
-			"short_code": "pt",
-			"is_active": true,
-			"leagues": [{
-				"country": "Portugal",
-				"name": "Primeira Liga",
-				"news_category": "Portugal Primeira Liga",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 99,
-				"gsm_id": 63,
-				"order": 23,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "United States",
-			"short_code": "us",
-			"is_active": true,
-			"leagues": [{
-				"country": "United States",
-				"name": "MLS",
-				"news_category": "United States MLS",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 98,
-				"gsm_id": 33,
-				"order": 25,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "South America",
-			"short_code": "sa",
-			"is_active": true,
-			"leagues": [{
-				"country": "South America",
-				"name": "Copa America",
-				"news_category": "Copa America",
-				"is_active": true,
-				"season": 2015,
-				"opta_id": 128,
-				"gsm_id": 288,
-				"order": 10,
-				"type": "cup"
-			}, {
-				"country": "South America",
-				"name": "Copa Libertadores",
-				"news_category": "Copa Libertadores",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 420,
-				"gsm_id": 241,
-				"order": 54,
-				"type": "cup"
-			}]
-		}, {
-			"name": "Japan",
-			"short_code": "jp",
-			"is_active": true,
-			"leagues": [{
-				"country": "Japan",
-				"name": "Japanese J1 League",
-				"news_category": "Japan J1 League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 20,
-				"gsm_id": 109,
-				"order": 24,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "China",
-			"short_code": "ch",
-			"is_active": true,
-			"leagues": [{
-				"country": "China",
-				"name": "Chinese Super League",
-				"news_category": "China Chinese Super League",
-				"is_active": true,
-				"season": 2018,
-				"opta_id": 208,
-				"gsm_id": 51,
-				"order": 24.1,
-				"type": "domestic"
-			}]
-		}, {
-			"name": "Asia",
-			"short_code": "as",
-			"is_active": true,
-			"leagues": [{
-				"country": "Asia",
-				"name": "Asian Cup Qualification - Men's",
-				"news_category": "Asian Cup - Men's",
-				"is_active": true,
-				"season": 2016,
-				"opta_id": 535,
-				"gsm_id": 1060,
-				"order": 46,
-				"type": "cup"
-			}, {
-				"country": "Asia",
-				"name": "Asian Cup - Women's",
-				"news_category": "Asian Cup - Women's",
-				"is_active": true,
-				"season": 2017,
-				"opta_id": 731,
-				"gsm_id": 766,
-				"order": 48,
-				"type": "cup"
-			}]
-		}]
-	}],
-	"updated": 1557805630,
-	"cs": "m",
-	"e": "q",
-	"timestamp": 1557805630,
-	"serverTime": "2019-05-14 13:47:10",
-	"ck": "api:v3:video_config:context_twg|device_ios|make_|model_|version_",
-	"ckh": "64503854729d855cf04e6daad0c407c0"
+  "one_signal": "8fc35acc-cd98-44f2-85f1-88beef7061fa",
+  "opta": {
+    "base_url": "http://omo.akamai.opta.net",
+    "base_url_pipeline": "https://pipeline-integration.netcodev.com/sbs/1/",
+    "login": "SBSTWG",
+    "password": "mK4VLG0Dz7Q2PEbj"
+  },
+  "baseurl": "http://localhost:3333",
+  "sl_baseurl": "http://localhost:3333",
+  "base_url_sbs": "http://localhost:3333",
+  "force_update": {
+    "ios": {
+      "current_version": "5.6.1",
+      "min_version": "5.6.1",
+      "update_url": "https://itunes.apple.com/au/app/the-world-game-football-news/id410148191?mt="
+    },
+    "android": {
+      "current_version": "910",
+      "min_version": "910",
+      "update_url": "https://play.google.com/store/apps/details?id=au.com.sbs.twg&hl=en"
+    }
+  },
+  "article_details": {
+    "play_button_url": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/play_button.png",
+    "square_placeholder_url": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/square_placeholder.png"
+  },
+  "ad_tags": {
+    "interstitial": "/4117/twg.sbs/twg_app",
+    "sticky": "/4117/twg.sbs/twg_app_banner",
+    "video_preroll": "/4117/video.twg.sbs.com.au",
+    "native": "/4117/twg.sbs/twg_app",
+    "in_article": "/4117/twg.sbs/twg_app"
+  },
+  "social": {
+    "facebook": "SBSTheWorldGame",
+    "twitter": "TheWorldGame",
+    "twitter_ids": {
+      "key": "z0g3RR6IVAp7o9ormgGkqTMYk",
+      "secret": "cPQUrwnbMFeBb0ksFHaTGWvhUDbss32QpDDRoQDd9obgLCb6oI"
+    },
+    "instagram": "sbstheworldgame"
+  },
+  "daicontentid": "2488267",
+  "ls_endpoints": {
+    "SBS1": {
+      "assetkey": "W9GPHBoRQPCreAkWK3p8ZQ",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    },
+    "SBS2": {
+      "assetkey": "csbFntNxQWW2e7jCNMlkww",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    },
+    "SBS3": {
+      "assetkey": "17UIU9eiTQSxCl_XM6r_5w",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    },
+    "SBS4": {
+      "assetkey": "ut4JVwC3TBunOmP8wdDGtg",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    },
+    "SBSEvent1": {
+      "assetkey": "egHizzpJSba1WiMSmN5HNg",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    },
+    "SBSEvent2": {
+      "assetkey": "c4JhZeqBSHKx2IGvHkx8uA",
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+    }
+  },
+  "channels": [
+    {
+      "name": "SBS",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/sbs-logo-new.png"
+    },
+    {
+      "name": "SBS VICELAND",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/sbs2-logo-new2.png"
+    },
+    {
+      "name": "Food Network",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/SBS_Food_Network_logo.png"
+    },
+    {
+      "name": "SBSHD",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/sbshd-logo.png"
+    },
+    {
+      "name": "NITV",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/nitv-logo-new.png"
+    },
+    {
+      "name": "WorldMovies",
+      "logo": "https://s3-ap-southeast-2.amazonaws.com/sbs-app-assets/world-movies-logo.png"
+    }
+  ],
+  "store_urls": {
+    "ios": "itms://itunes.apple.com/au/app/the-world-game/id410148191?mt=8",
+    "android": "https://play.google.com/store/apps/details?id=au.com.sbs.twg&hl=en"
+  },
+  "team_exclusions": ["place", "tbc", "rank", "winnner"],
+  "login_base_url_sbs": "https://www.qa.sbs.com.au/api/",
+  "template": {
+    "video": {
+      "general": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg/[VIDEOID]?context=twg",
+      "team": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{t-[TEAMGSMID]}",
+      "league": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-[LEAGUEGSMID]}"
+    },
+    "news": {
+      "general": "http://theworldgame.sbs.com.au/app-api",
+      "team": "http://theworldgame.sbs.com.au/app-api/team/[TEAMGSMID]",
+      "league": "http://theworldgame.sbs.com.au/app-api/league/[LEAGUEGSMID]",
+      "article": "http://theworldgame.sbs.com.au/app-api/article?aid=[ARTICLELINK]"
+    },
+    "stories": {
+      "article": "https://sl.qa.sbs.com.au/public/document/[SLUG]",
+      "team": "https://sl.qa.sbs.com.au/public/documents/article.json?hasroot=0&terms[0]=sm_vid_football_team:[TEAM_NAME]&limit=[LIMIT]&page=[PAGNATION]&site=The%20World%20Game",
+      "league": "https://sl.qa.sbs.com.au/public/documents/article.json?hasroot=0&terms[0]=sm_vid_football_league:[LEAGUE_NAME]&limit=[LIMIT]&page=[PAGNATION]&site=The%20World%20Game",
+      "general": "https://sl.qa.sbs.com.au/public/configuration/block/The%20World%20Game/latest.json"
+    },
+    "stats": {
+      "team": "http://www.qa.sbs.com.au/api/v3/twg_stats/teammatches?teamid=[TEAMGSMID]"
+    },
+    "images": {
+      "general": "https://sl.qa.sbs.com.au/public/image/file/[UUID]/crop/[CROP_TYPE]"
+    },
+    "txbanner": {
+      "live": "http://localhost:3333/api/v3/twg2018_fixture/getmatches/?featured=1&tx=1&limit=1&livestream=1"
+    }
+  },
+  "content": {
+    "terms": "http://www.qa.sbs.com.au/aboutus/corporate/view/id/114/h/Terms-and-Conditions",
+    "privacy": "http://www.qa.sbs.com.au/aboutus/corporate/view/id/113/h/SBS-Privacy-Statement"
+  },
+  "test_live_mpx": "279376963970",
+  "live": {
+    "feed": "http://localhost:3333/api/v3/video_feed/f/Bgtm9B/twg-livestreams-test/?context=twg&device=ios"
+  },
+  "epl_live": {
+    "games": [
+      {
+        "title": "Test EPL Stream May 14 10:00",
+        "starttime": 1557792000000,
+        "endtime": 1558008000000,
+        "id": "1288059459980",
+        "thumbnail": "http://media.sbs.com.au/video/upload_media/9985_110920-vod-fightingthered.jpg",
+        "thumbnail720": "http://media.sbs.com.au/video/upload_media/9985_110920-vod-fightingthered.jpg"
+      }
+    ]
+  },
+  "video": {
+    "latest": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios",
+    "featured": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg/1521782339591,1521710147698,1521666627931,1521607235669,1514534467686,1521314371741,1521267267985,1521283139724,1521122883987,1521279555716,1521121347647,1521146947712,1521120323864,1521152579838,1521130563787,1521175107642,1521133635691,1521065027728?context=twg&device=ios",
+    "endpoint": "http://www.qa.sbs.com.au/api/v3/video_stream/?context=twg&device=ios&id=[VIDEOID]&uniqueid=[UNIQUEID]"
+  },
+  "epg": {
+    "ACT": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/ACT",
+    "NSW": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/NSW",
+    "NT": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/NT",
+    "QLD": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/QLD",
+    "SA": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/SA",
+    "TAS": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/TAS",
+    "VIC": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/VIC",
+    "WA": "http://www.qa.sbs.com.au/guide/ajax_by_genre_data/genre/sport/subgenre/football/location/WA"
+  },
+  "profile": {
+    "support_email": "feedback.sport@sbs.com.au"
+  },
+  "football_web_view": "http://www.qa.sbs.com.au/guide/genre/sport/location/NSW/sublocation/Sydney",
+  "videomenu": [
+    {
+      "name": "Latest",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios"
+    },
+    {
+      "name": "A-League",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-283}"
+    },
+    {
+      "name": "Australia",
+      "children": [
+        {
+          "name": "All",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Australia}"
+        },
+        {
+          "name": "Socceroos",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={groupingSingle}{Australia}&byCustomValue={machineVocabularies}{t-156}"
+        },
+        {
+          "name": "Experts",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={useType}{Experts}"
+        }
+      ]
+    },
+    {
+      "name": "English Premier League",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-8}"
+    },
+    {
+      "name": "Europe",
+      "children": [
+        {
+          "name": "All",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Europe}"
+        },
+        {
+          "name": "UEFA Champions League",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Europe}&byCustomValue={machineVocabularies}{c-10}"
+        },
+        {
+          "name": "UEFA Europa League",
+          "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-18}"
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Asia}"
+    },
+    {
+      "name": "Global",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={grouping}{Other}"
+    },
+    {
+      "name": "FIFA World Cup",
+      "feed": "http://www.qa.sbs.com.au/api/v3/video_feed/f/Bgtm9B/sbs-twg?context=twg&device=ios&byCustomValue={machineVocabularies}{c-72}"
+    }
+  ],
+  "sports": [
+    {
+      "name": "Football",
+      "is_active": true,
+      "logos": {
+        "teams": {
+          "small": "https://storage.googleapis.com/static-production.netcosports.com/sbs/logos/",
+          "medium": "https://storage.googleapis.com/static-production.netcosports.com/sbs/logos/",
+          "high": "https://storage.googleapis.com/static-production.netcosports.com/sbs/logos/"
+        },
+        "players": {
+          "small": "https://storage.googleapis.com/static-production.netcosports.com/sbs/players/[TEAMID]/[player_id].jpg",
+          "medium": "https://storage.googleapis.com/static-production.netcosports.com/sbs/players/[TEAMID]/[player_id].jpg",
+          "high": "https://storage.googleapis.com/static-production.netcosports.com/sbs/players/[TEAMID]/[player_id].jpg"
+        }
+      },
+      "countries": [
+        {
+          "name": "Australia",
+          "short_code": "au",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Australia",
+              "name": "A-League",
+              "news_category": "Australia A-League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 214,
+              "gsm_id": 283,
+              "order": 3,
+              "type": "domestic"
+            },
+            {
+              "country": "Australia",
+              "name": "W-League",
+              "news_category": "Australia W-League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 684,
+              "gsm_id": 370,
+              "order": 3.5,
+              "type": "domestic"
+            },
+            {
+              "country": "Australia",
+              "name": "FFA Cup",
+              "news_category": "Australia FFA Cup",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 716,
+              "gsm_id": 1377,
+              "order": 4,
+              "type": "cup",
+              "to_hide_standings": true
+            }
+          ],
+          "teams": [
+            {
+              "id": 575,
+              "name": "Socceroos",
+              "competition_id": 341,
+              "is_active": true
+            }
+          ]
+        },
+        {
+          "name": "England",
+          "short_code": "en",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "England",
+              "name": "Premier League",
+              "news_category": "England Premier League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 8,
+              "gsm_id": 8,
+              "order": 1,
+              "type": "domestic"
+            },
+            {
+              "country": "England",
+              "name": "FA Cup",
+              "news_category": "England FA Cup",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 1,
+              "gsm_id": 93,
+              "order": 2,
+              "type": "cup",
+              "to_hide_standings": true
+            },
+            {
+              "country": "England",
+              "name": "EFL Championship",
+              "news_category": "England Championship",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 10,
+              "gsm_id": 70,
+              "order": 2.5,
+              "type": "cup",
+              "to_hide_standings": false
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "short_code": "es",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Spain",
+              "name": "La Liga",
+              "news_category": "Spain La Liga",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 23,
+              "gsm_id": 7,
+              "order": 17,
+              "type": "domestic"
+            },
+            {
+              "country": "Spain",
+              "name": "Copa Del Rey",
+              "news_category": "Spain Copa Del Rey",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 331,
+              "gsm_id": 138,
+              "order": 53,
+              "type": "cup",
+              "to_hide_standings": true
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "short_code": "fr",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "France",
+              "name": "Ligue 1",
+              "news_category": "France Ligue 1",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 24,
+              "gsm_id": 16,
+              "order": 21,
+              "type": "domestic"
+            },
+            {
+              "country": "France",
+              "name": "Coupe de France",
+              "news_category": "France Coupe de France",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 361,
+              "gsm_id": 177,
+              "order": 50,
+              "type": "cup",
+              "to_hide_standings": true
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "short_code": "de",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Germany",
+              "name": "Bundesliga",
+              "news_category": "Germany Bundesliga",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 22,
+              "gsm_id": 9,
+              "order": 19,
+              "type": "domestic"
+            },
+            {
+              "country": "Germany",
+              "name": "DFB Pokal",
+              "news_category": "Germany DFB Pokal",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 231,
+              "gsm_id": 104,
+              "order": 51,
+              "type": "cup",
+              "to_hide_standings": true
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "short_code": "it",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Italy",
+              "name": "Serie A",
+              "news_category": "Italy Serie A",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 21,
+              "gsm_id": 13,
+              "order": 18,
+              "type": "domestic"
+            },
+            {
+              "country": "Italy",
+              "name": "Coppa Italia",
+              "news_category": "Italy Coppa Italia",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 259,
+              "gsm_id": 135,
+              "order": 52,
+              "type": "cup",
+              "to_hide_standings": true
+            }
+          ]
+        },
+        {
+          "name": "Europe",
+          "short_code": "eu",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Europe",
+              "name": "UEFA Champions League",
+              "news_category": "UEFA Champions League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 5,
+              "gsm_id": 10,
+              "order": 5,
+              "type": "cup",
+              "to_hide_standings": false
+            },
+            {
+              "country": "Europe",
+              "name": "UEFA Champions League Qualifiers",
+              "news_category": "UEFA Champions League",
+              "is_active": true,
+              "season": 2016,
+              "opta_id": 0,
+              "gsm_id": 200232,
+              "order": 29.1,
+              "type": "cup",
+              "to_hide_standings": true
+            },
+            {
+              "country": "Europe",
+              "name": "UEFA Europa League",
+              "news_category": "UEFA Europa League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 6,
+              "gsm_id": 18,
+              "order": 30,
+              "type": "cup"
+            },
+            {
+              "country": "Europe",
+              "name": "UEFA Super Cup",
+              "news_category": "UEFA Super Cup",
+              "is_active": false,
+              "season": 2018,
+              "opta_id": 174,
+              "gsm_id": 211,
+              "order": 31,
+              "type": "cup",
+              "to_hide_standings": true,
+              "to_hide_menu": true
+            },
+            {
+              "country": "Europe",
+              "name": "European Championship",
+              "news_category": "European Championship",
+              "is_active": true,
+              "season": 2011,
+              "opta_id": 3,
+              "gsm_id": 25,
+              "order": 11,
+              "type": "cup"
+            },
+            {
+              "country": "Europe",
+              "name": "European Championship Qualifiers",
+              "news_category": "European Championship Qualifiers",
+              "is_active": true,
+              "season": 4,
+              "opta_id": 235,
+              "gsm_id": 1000,
+              "order": 32,
+              "type": "cup"
+            },
+            {
+              "country": "Europe",
+              "name": "UEFA Nations League",
+              "news_category": "UEFA Nations League\t",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 941,
+              "gsm_id": 1661,
+              "order": 33,
+              "type": "cup"
+            }
+          ]
+        },
+        {
+          "name": "International",
+          "short_code": "www",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "World",
+              "name": "FIFA World Cup",
+              "news_category": "FIFA World Cup",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 4,
+              "gsm_id": 72,
+              "order": 7,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - UEFA",
+              "news_category": "World Cup Qualifiers - UEFA",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 336,
+              "gsm_id": 224,
+              "order": 34,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - AFC",
+              "news_category": "World Cup Qualifiers - AFC",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 341,
+              "gsm_id": 229,
+              "order": 33,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - OFC",
+              "news_category": "World Cup Qualifiers - OFC",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 338,
+              "gsm_id": 230,
+              "order": 35,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - CONCACAF",
+              "news_category": "World Cup Qualifiers - CONCACAF",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 339,
+              "gsm_id": 227,
+              "order": 36,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - CONMEBOL",
+              "news_category": "World Cup Qualifiers - CONMEBOL",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 342,
+              "gsm_id": 225,
+              "order": 37,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "World Cup Qualifiers - CAF",
+              "news_category": "World Cup Qualifiers - CAF",
+              "is_active": true,
+              "season": 112018,
+              "opta_id": 340,
+              "gsm_id": 228,
+              "order": 38,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "FIFA World Cup (Women's)",
+              "news_category": "FIFA Women's World Cup",
+              "is_active": true,
+              "season": 2014,
+              "opta_id": 408,
+              "gsm_id": 368,
+              "order": 8,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "FIFA World Cup (Men's Under 20)",
+              "news_category": "FIFA U-20 World Cup",
+              "is_active": true,
+              "season": 2016,
+              "opta_id": 409,
+              "gsm_id": 274,
+              "order": 41,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "FIFA World Cup (Men's Under 17)",
+              "news_category": "FIFA U-17 World Cup",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 670,
+              "gsm_id": 365,
+              "order": 42,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "Confederations Cup",
+              "news_category": "FIFA Confederations Cup",
+              "is_active": true,
+              "season": 2016,
+              "opta_id": 330,
+              "gsm_id": 246,
+              "order": 13,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "Club World Cup",
+              "news_category": "FIFA Club World Cup",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 335,
+              "gsm_id": 284,
+              "order": 14,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "International Friendlies",
+              "news_category": "International Friendlies",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 88,
+              "gsm_id": 430,
+              "order": 12,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "Olympic Games - Men's",
+              "news_category": "Olympic Games - Men's",
+              "is_active": true,
+              "season": 2016,
+              "opta_id": 378,
+              "gsm_id": 221,
+              "order": 14,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "International Champions Cup (ICC)",
+              "news_category": "International Champions Cup (ICC)",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 638,
+              "gsm_id": 1148,
+              "order": 16,
+              "type": "cup"
+            },
+            {
+              "country": "World",
+              "name": "International Friendlies (Womens)",
+              "news_category": "International Friendlies (women)",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 551,
+              "gsm_id": 456,
+              "order": 18,
+              "type": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Scotland",
+          "short_code": "sc",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Scotland",
+              "name": "Scottish Premier League",
+              "news_category": "Scotland Scottish Premier League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 14,
+              "gsm_id": 43,
+              "order": 20,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "short_code": "nl",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Netherlands",
+              "name": "Eredivisie",
+              "news_category": "Netherlands Eredivisie",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 9,
+              "gsm_id": 1,
+              "order": 22,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "Turkey",
+          "short_code": "tr",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Turkey",
+              "name": "Super Lig",
+              "news_category": "Turkey Super Lig",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 115,
+              "gsm_id": 19,
+              "order": 27,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "Portugal",
+          "short_code": "pt",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Portugal",
+              "name": "Primeira Liga",
+              "news_category": "Portugal Primeira Liga",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 99,
+              "gsm_id": 63,
+              "order": 23,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "short_code": "us",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "United States",
+              "name": "MLS",
+              "news_category": "United States MLS",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 98,
+              "gsm_id": 33,
+              "order": 25,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "South America",
+          "short_code": "sa",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "South America",
+              "name": "Copa America",
+              "news_category": "Copa America",
+              "is_active": true,
+              "season": 2015,
+              "opta_id": 128,
+              "gsm_id": 288,
+              "order": 10,
+              "type": "cup"
+            },
+            {
+              "country": "South America",
+              "name": "Copa Libertadores",
+              "news_category": "Copa Libertadores",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 420,
+              "gsm_id": 241,
+              "order": 54,
+              "type": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Japan",
+          "short_code": "jp",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Japan",
+              "name": "Japanese J1 League",
+              "news_category": "Japan J1 League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 20,
+              "gsm_id": 109,
+              "order": 24,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "short_code": "ch",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "China",
+              "name": "Chinese Super League",
+              "news_category": "China Chinese Super League",
+              "is_active": true,
+              "season": 2018,
+              "opta_id": 208,
+              "gsm_id": 51,
+              "order": 24.1,
+              "type": "domestic"
+            }
+          ]
+        },
+        {
+          "name": "Asia",
+          "short_code": "as",
+          "is_active": true,
+          "leagues": [
+            {
+              "country": "Asia",
+              "name": "Asian Cup Qualification - Men's",
+              "news_category": "Asian Cup - Men's",
+              "is_active": true,
+              "season": 2016,
+              "opta_id": 535,
+              "gsm_id": 1060,
+              "order": 46,
+              "type": "cup"
+            },
+            {
+              "country": "Asia",
+              "name": "Asian Cup - Women's",
+              "news_category": "Asian Cup - Women's",
+              "is_active": true,
+              "season": 2017,
+              "opta_id": 731,
+              "gsm_id": 766,
+              "order": 48,
+              "type": "cup"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated": 1557805630,
+  "cs": "m",
+  "e": "q",
+  "timestamp": 1557805630,
+  "serverTime": "2019-05-14 13:47:10",
+  "ck": "api:v3:video_config:context_twg|device_ios|make_|model_|version_",
+  "ckh": "64503854729d855cf04e6daad0c407c0"
 }
