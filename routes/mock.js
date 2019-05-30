@@ -29,7 +29,7 @@ handlePath = (req, res, next) => {
   mockFilePath = mockFilePath.split("%3F")[0];
 
   if (mockFilePath.endsWith("/")) {
-    mockFilePath = mockFilePath.concat("index");
+    mockFilePath = mockFilePath.substring(0, mockFilePath.length - 1);
   }
   if (!mockFilePath.endsWith(".xml")) {
     mockFilePath = mockFilePath.concat(".json");
@@ -40,6 +40,7 @@ handlePath = (req, res, next) => {
   // Fetch mock file content and return
   fs.readFile(mockFilePath, "utf-8", function(err, file) {
     if (err) {
+      console.log("Mockfile NOT FOUND - mockFilePath: " + mockFilePath);
       res.render("error", {
         error: {
           status: 404,
@@ -52,7 +53,8 @@ handlePath = (req, res, next) => {
         let fileJson = JSON.parse(file);
         res.json(fileJson).end();
       } catch (err) {
-        console.log(err);
+        console.log("Mockfile Error - mockFilePath: " + mockFilePath);
+        console.log("Mockfile Error: " + err);
         if (err.name.startsWith("SyntaxError")) {
           res.setHeader("Content-Type", "application/xhtml+xml");
           res.send(file).end();
