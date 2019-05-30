@@ -40,7 +40,7 @@
     "tx": {
       "match_title": "FC Bayern München vs Eintracht Frankfurt",
       "start_time": "2019-05-15 20:00:17",
-      "end_time": "2019-05-15 22:00:26",
+      "end_time": "2019-06-25 22:00:26",
       "channel": "SBS",
       "twg_app": "1",
       "twg_website": "1",
@@ -48,7 +48,7 @@
       "sbs_radio": "0",
       "featured": "1",
       "active": "1",
-      "liveStreamMpxID": 1288059459980
+      "liveStreamMpxID": 1431689795800
     }
   }
 }

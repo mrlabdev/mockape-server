@@ -25,6 +25,9 @@ handlePath = (req, res, next) => {
     .concat("/MockData")
     .concat(urlComps.pathname);
 
+  //let attributeIndex = mockFilePath.indexOf("?", 0)
+  mockFilePath = mockFilePath.split("%3F")[0];
+
   if (mockFilePath.endsWith("/")) {
     mockFilePath = mockFilePath.concat("index");
   }
