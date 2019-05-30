@@ -8,7 +8,7 @@
       "type": "Clip",
       "offer": {
         "availabilityStarts": "2019-05-28T08:27:00Z",
-        "availabilityEnds": "2019-06-30T09:32:00Z"
+        "availabilityEnds": "2019-06-15T09:32:00Z"
       },
       "publication": {
         "type": "BroadcastEvent",
@@ -26,7 +26,7 @@
         "channel": [
           {
             "type": "Term",
-            "name": "Web Exclusive"
+            "name": "SBS1"
           }
         ],
         "genre": [
