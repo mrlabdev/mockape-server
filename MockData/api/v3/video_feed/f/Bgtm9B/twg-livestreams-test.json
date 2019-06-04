@@ -8,11 +8,11 @@
       "type": "Clip",
       "offer": {
         "availabilityStarts": "2019-05-28T08:27:00Z",
-        "availabilityEnds": "2019-06-15T09:32:00Z"
+        "availabilityEnds": "2019-06-30T09:32:00Z"
       },
       "publication": {
         "type": "BroadcastEvent",
-        "startDate": "2019-05-18T08:27:00Z"
+        "startDate": "2019-05-28T08:27:00Z"
       },
       "id": "https://www.sbs.com.au/ondemand/video/single/1431689795800",
       "datePublished": "2019-04-01T01:01:01",
@@ -26,7 +26,7 @@
         "channel": [
           {
             "type": "Term",
-            "name": "SBS1"
+            "name": "On Demand"
           }
         ],
         "genre": [
@@ -158,8 +158,8 @@
           "playButton": "Play Clip"
         },
         "appleumc": {
-          "formatted": "SBS World News: live stream",
-          "descriptive": "SBS World News: live stream"
+          "formatted": "TWG: live stream",
+          "descriptive": "TWG: live stream"
         }
       }
     }

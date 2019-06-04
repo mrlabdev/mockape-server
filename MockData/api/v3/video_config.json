@@ -43,29 +43,29 @@
   },
   "daicontentid": "2488267",
   "ls_endpoints": {
-    "SBS1": {
+    "SBS": {
       "assetkey": "W9GPHBoRQPCreAkWK3p8ZQ",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     },
-    "SBS2": {
+    "SBS Viceland": {
       "assetkey": "csbFntNxQWW2e7jCNMlkww",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     },
-    "SBS3": {
+    "SBS Food": {
       "assetkey": "17UIU9eiTQSxCl_XM6r_5w",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     },
-    "SBS4": {
+    "NITV": {
       "assetkey": "ut4JVwC3TBunOmP8wdDGtg",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     },
-    "SBSEvent1": {
+    "On Demand": {
       "assetkey": "egHizzpJSba1WiMSmN5HNg",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     },
     "SBSEvent2": {
       "assetkey": "c4JhZeqBSHKx2IGvHkx8uA",
-      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.news.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=&scor=[ASSETID]&ppid=[PPID]"
+      "dfptag": "https://pubads.g.doubleclick.net/gampad/live/ads?sz=530x298&iu=%2F4117%2Fvideo.twg.sbs.com.au/livestream&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&ad_rule=1&cmsid=2488267&url=http%3A%2F%2Fwww.sbs.com.au&description_url=http%253A%252F%252Fwww.sbs.com.au%252Fondemand%252Fvideo%252Fsingle%252F[ASSETID]&cust_params=CxSegments%3D--CXSEGMENTIDS--%26Cxprnd%3D--CXPRNDS--%26Cxid%3D--CXIDS--%26Cxsiteid%3D1133921284657819058%26Cxurl%3D--CXURL--&correlator=[TIMESTAMP]&vid=[ASSETID]&scor=[ASSETID]&ppid=[PPID]"
     }
   },
   "channels": [
