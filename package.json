@@ -14,6 +14,6 @@
     "jade": "~1.11.0",
     "list-react-files": "^0.2.0",
     "morgan": "~1.9.0",
-    "url-parse": "^1.4.4"
+    "url-parse": "^1.5.8"
   }
 }
